@@ -31,12 +31,15 @@
   ]
 }
 ```
-where nesting depth and number of siblings at each node is no more than 100. This component should show each node's name and indicate relation to it's children nodes (example: http://static.webdeveloperplus.com/uploads/2009/07/css-amazing-techniques/tree-like-navigation.png).
+This component should show each node's name and indicate relation to it's children nodes. Example:
+![Component example](http://static.webdeveloperplus.com/uploads/2009/07/css-amazing-techniques/tree-like-navigation.png)
 
-2. Make each node collapsable by click on it's name (the whole tree should start collapsed).
+2. Make each node open/close by click on it's name.
 
-3. Make collapsable component logic reusable by using higher order component pattern.
+3. Make collapsible component logic reusable by using higher order component pattern.
 
-4. Using react context make it so when you click on any the leaf node it will collapse the whole tree.
+4. Using react context make it so when you click on any leaf node it will close all nodes in the tree.
 
-5. Make a generator of the mock data(nested json data structures) to test your component
+5. Make a generator of the mock data(nested json data structures) to test your component. Names for each node can be non-uniq.
+
+6. Connect [this countries graphql API](https://countries.trevorblades.com) to your components to display nesting of `Continent`, `Country` and `Language` types
