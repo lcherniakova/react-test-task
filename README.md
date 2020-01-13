@@ -36,10 +36,10 @@ This component should show each node's name and indicate relation to it's childr
 
 2. Make each node open/close by click on it's name.
 
-3. Make collapsible component logic reusable by using higher order component pattern.
+3. Make collapsible component logic reusable by using HOC or react hooks.
 
 4. Using react context make it so when you click on any leaf node it will close all nodes in the tree.
 
-5. Make a generator of the mock data(nested json data structures) to test your component. Names for each node can be non-uniq.
+5. Generate data for your component so it can open to `n`-th level with `m` children in each node.
 
 6. Connect [this countries graphql API](https://countries.trevorblades.com) to your components to display nesting of `Continent`, `Country` and `Language` types
