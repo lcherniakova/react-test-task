@@ -32,7 +32,7 @@
 }
 ```
 This component should show each node's name and indicate relation to it's children nodes. Example:
-![Component example](http://static.webdeveloperplus.com/uploads/2009/07/css-amazing-techniques/tree-like-navigation.png)
+![Component example](https://raw.githubusercontent.com/AlpacaGoesCrazy/react-test-project/master/example.png)
 
 2. Make each node open/close by click on it's name.
 
