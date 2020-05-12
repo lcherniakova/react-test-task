@@ -38,7 +38,7 @@ This component should show each node's name and indicate relation to it's childr
 
 3. Make collapsible component logic reusable by using HOC or react hooks.
 
-4. Using react context make it so when you click on any leaf node it will close all nodes in the tree.
+4. Using react context make it so when you click on any last node it will close all nodes in the tree.
 
 5. Generate data for your component so it can open to `n`-th level with `m` children in each node.
 
